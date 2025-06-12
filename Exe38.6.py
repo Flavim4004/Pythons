@@ -1,0 +1,5 @@
+v=float(input("Quantos km voce ta rodando fih? \n"))
+t=float(input("Quanto tempo voce esta dirigindo fih? \n"))
+dis=float(v*t)
+litros=float(dis/12)
+print("A distancia percorrida foi de " + str(dis) + " consumindo uma quantidade de " + str(litros) + " litros")

@@ -1,0 +1,5 @@
+sal=float(input("Qual seu salario fih? \n"))
+ferias=float(sal + (sal*1.33))
+bonus=float(sal + (sal*0.74))
+promocao=float(sal + (sal*1.45))
+print("Baseado no teu salario voce ganharia " + str(ferias) + " se estivesse de ferias, " + str(bonus) + " se ganhase um bonus e " + str(promocao) + " se tivesse um aumento ")
