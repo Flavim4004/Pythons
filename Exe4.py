@@ -1,9 +1,10 @@
-sal=float(input("Quanto tu tem na conta fih? \n"))
-com1=float(input("Quando voce vai gastar nesse produto fih? \n"))
-com2=float(input("Quanto voce vai gastar nesse outro produto fih? \n"))
-soma=float(com1+com2)
-des=float(sal-soma)
-if(sal < soma):
-    print("False")
-else:
-    print("Verdadeiro")
+resp=int(input("Qual serie voce viu esse final de semana fih! \n [1]Rick and morty \n [2]Dungeon Meshi \n [3]Star Wars Andor  \n "))
+match resp :
+    case 1:
+        print("Rick and morty ")
+    case 2:
+        print("Dungeon Meshi")
+    case 3:
+        print("Star wars Andor")
+    case _:
+        print("E uma otima escolha ")
