@@ -1,13 +1,9 @@
-resp=int(input("Qual serie voce viu nesse final de semana fih? \n [1]Sandman \n [2]Sex Education \n [3]Game of thrones \n [4]Dota \n [5]This is us 6 temp \n"))
-if(resp==1):
-    print("Sandman")
-elif(resp==2):
-    print("Sex Education")
-elif(resp==3):
-    print("Game of Thrones")
-elif(resp==4):
-    print("Dota")
-elif(resp==5):
-    print("This is Us 6 ")
-else:
-    print("Outra Opção interessante fih")
+nota1=float(input("Qual a sua nota fih?"))
+nota2=float(input("Qual sua nota fih?"))
+nota3=float(input("Qual sua nota fih!"))
+soma=float(nota1 + nota2 + nota3)
+media=float(soma/3)
+nota4=float(input("Qual sua nota fih?"))
+soma2=float(nota1 + nota2 + nota3 + nota4)
+media2=float(soma2/4)
+print("A media das 3 notas é " + str(media) + " ja a media das 4 notas é " + str(media2))
